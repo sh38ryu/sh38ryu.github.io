@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Seunghee의 블로그입니다.</description>
+    <link>
+    https://sh38ryu.github.io</link>
+    
+      
+      <item>
+        <title>Python (1) - basic</title>
+        
+          <description>&lt;p&gt;ex)
+이 포스팅은 python basic에 관한 내용입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 20 Sep 2020 01:40:00 +0900</pubDate>
+        <link>
+        https://sh38ryu.github.io/python-basic</link>
+        <guid isPermaLink="true">https://sh38ryu.github.io/python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Welcome to Ghost</title>
+        
+          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 19:00:00 +0900</pubDate>
+        <link>
+        https://sh38ryu.github.io/welcome</link>
+        <guid isPermaLink="true">https://sh38ryu.github.io/welcome</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Making your site private</title>
+        
+          <description>&lt;p&gt;Sometimes you might want to put your site behind closed doors&lt;/p&gt;
+&lt;p&gt;If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase.&lt;/p&gt;
+&lt;p&gt;You can toggle this preference on at the bottom of Ghost's General Settings&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/private.png&quot; alt=&quot;private&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar.&lt;/p&gt;
+&lt;p&gt;Do remember though, this is &lt;em&gt;not&lt;/em&gt; secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 15:00:00 +0900</pubDate>
+        <link>
+        https://sh38ryu.github.io/private-sites</link>
+        <guid isPermaLink="true">https://sh38ryu.github.io/private-sites</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

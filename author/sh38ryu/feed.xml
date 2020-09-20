@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://sh38ryu.github.io/author/sh38ryu/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://sh38ryu.github.io/" rel="alternate" type="text/html" />
+  <updated>2020-09-20T20:43:50+09:00</updated>
+  <id>https://sh38ryu.github.io/author/sh38ryu/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">SEUNGHEE’s Blog | </title>
+  
+
+  
+    <subtitle>Seunghee의 블로그입니다.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Python (1) - basic</title>
+      <link href="https://sh38ryu.github.io/python-basic" rel="alternate" type="text/html" title="Python (1) - basic" />
+      <published>2020-09-20T01:40:00+09:00</published>
+      <updated>2020-09-20T01:40:00+09:00</updated>
+      <id>https://sh38ryu.github.io/python-basic</id>
+      <content type="html" xml:base="https://sh38ryu.github.io/python-basic">&lt;p&gt;ex)
+이 포스팅은 python basic에 관한 내용입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Seunghee Ryu</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">ex) 이 포스팅은 python basic에 관한 내용입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
