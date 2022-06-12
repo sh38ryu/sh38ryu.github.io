@@ -14,7 +14,7 @@ last_modified_at: 2022-06-11T11:33:00-05:00
 
 Parcel delivery system using rechargeable drone based on an uncertain public transportation network
 
-## Contents
+# Contents
 
 1. Introduction
 2. Literature Review
@@ -25,13 +25,14 @@ Parcel delivery system using rechargeable drone based on an uncertain public tra
 
 
 
-## 1. Introduction
 
-### A) Background
+# 1. Introduction
+
+## A) Background
 
 **Minimizing delivery time & express delivery has become a crucial issue**
 
-![Fast Delivery.png](/assets/images/posts/2022-06-11/1-A_FastDelivery.png){: width="500" height="100"}
+![Fast Delivery.png](/assets/images/posts/2022-06-11/1-A_FastDelivery.png){: width="500" height="100"}{: .align-center}
 * Same-day delivery
 * Early morning delivery
 * Rocket delivery
@@ -39,11 +40,11 @@ Parcel delivery system using rechargeable drone based on an uncertain public tra
 
 The demand for speed has outstripped the capabilities of railroads, trucks, ships, and planes
 
-Drone Delivery: A Solution to Last Mile Delivery!
+> Drone Delivery: A Solution to Last Mile Delivery!
 
 **Current situations of drone delivery**
 
-![Truck and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_TruckDrone.png)
+![Truck and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_DroneDelivery.png){: width="600" height="350"}{: .align-center}
 
 * **Walmart**
   * expands drone delivery network providing the potential to reach 4 million U.S. households across six states (Arizona, Arkansas, Florida, Texas, Utah and Virginia) by the end of this year
@@ -52,6 +53,8 @@ Drone Delivery: A Solution to Last Mile Delivery!
   * Delivering daily necessities over small and medium-sized cities in the United States, Australia, and Finland
   * 100,000 drone deliveries (2021.08)
 
+![Truck and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_DD.png){: width="600" height="350"}{: .align-center}
+
 * **Several drone delivery tests in Korea**
   * Domino Pizza Delivery at Sejong Lake Park
   * Delivery of masks in Jeju and Marado Island
@@ -59,84 +62,99 @@ Drone Delivery: A Solution to Last Mile Delivery!
 * **etc**
   * COVID-19 diagnostic kit, medicine, food, deliver blood in Rwanda
 
-### B) Purpose of Research
+**Cooperative Drone Delivery with Public Transportation**
+
+The pros and cons of different types of delivery systems
+
+![Public Transit and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_PN.png){: width="700" height="300"}{: .align-center}
+
+## B) Purpose of Research
 * Establishment of a delivery system combining drone and public transportation
 * Improve delivery efficiency by introducing drone battery charging
 * Improving the applicability of this system by considering the uncertainty of link travel time of public transportation
 
 
 
-## 2. Literature Review
+# 2. Literature Review
 
 
-### A) Drone & Public Transportation Delivery
-![Literature Review - summary.png](/assets/images/posts/2022-06-11/2-A-1_LiteratureReview.png){: width="900" height="150"}
+## A) Drone & Public Transportation Delivery
+![Literature Review - summary.png](/assets/images/posts/2022-06-11/2-A-1_LiteratureReview.png){: width="900" height="150"}{: .align-center}
 
 
-### B) Link Travel Time of Public Transportation
+## B) Link Travel Time of Public Transportation
 
-Rahman et al. (2018). Analysis of bus travel time distributions for varying horizons and real-time applications
+**Rahman et al. (2018). Analysis of bus travel time distributions for varying horizons and real-time applications**
 
 * *pseudo horizon* : the distance from a GPS point to an upstream GPS point
-![Pseudo Horizon.png](/assets/images/posts/2022-06-11/2-B-1_PseudoHorizon.png){: width="600" height="150"}
+![Pseudo Horizon.png](/assets/images/posts/2022-06-11/2-B-1_PseudoHorizon.png){: width="500" height="150"}{: .align-center}
 * analyze the changes of bus travel time characteristics as pseudo horizon varies and how such characteristics can be applied to real-time bus arrival estimation
 * Instead of point estimates of bus arrival times, his study provides interval estimates that take into account the uncertainty of future bus arrival times
 * Show a significant change in bus travel time characteristics around a pseudo horizon range of 8 km
-![Rank of Distributions.png](/assets/images/posts/2022-06-11/2-B-2_RankOfDistribution.png){: width="500" height="600"}
+![Rank of Distributions.png](/assets/images/posts/2022-06-11/2-B-2_RankOfDistribution.png){: width="500" height="600"}{: .align-center}
 
 
 
-## 3. Methodology
+# 3. Methodology
 
 
-### A) Choudhury et al. (2019)
+## A) Choudhury et al. (2019)
+
+**Dynamic real-time multimodal routing with hierarchical hybrid planning**
+
+![DreamrHHP.png](/assets/images/posts/2022-06-11/3-A-1_DreamrHHP.png){: width="250" height="250"}{: .align-center}
 
 Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) Hierarchical Stochastic Planning, Choudhury created an algorithm called **DreamrHHP**(Dynamic Real-time Multimodal Routing with Hierarchical Hybrid Planning)
 
 * MDP
 
-  ![MDP figure.png](/assets/images/posts/2022-06-11/3-A-3_MDP_figure.png)
-  ![MDP.png](/assets/images/posts/2022-06-11/3-A-2_MDP.png)
+  ![MDP figure.png](/assets/images/posts/2022-06-11/3-A-3_MDP_figure.png){: width="250" height="250"}{: .align-center}
+  ![MDP.png](/assets/images/posts/2022-06-11/3-A-2_MDP.png){: .align-center}
 
 
-### B) This Research
+## B) This Study
 
-1)  Route Planning
+**1)  Route Planning**
   * Apply data analysis-based distribution to the calculation of ETA(estimated time of arrival)
   * Choudhury et al. (2019) updates the changing state and applies A* heuristic search to repeatedly plan the route of drone
   * Review the multimodal route planning methodology for better objective function values (minimizing delivery time)
-  ![Route Planning.png](/assets/images/posts/2022-06-11/3-B-1_RoutePlanning.png)
 
-2) Optimization of Multiple Demand Delivery
+  ![Route Planning.png](/assets/images/posts/2022-06-11/3-B-1_RoutePlanning.png){: .align-center}
 
-  ![Multiple Demands.png](/assets/images/posts/2022-06-11/3-B-2_MultipleDemands.png)
+**2) Optimization of Multiple Demand Delivery**
 
-3) Multiple Drones
+  ![Multiple Demands.png](/assets/images/posts/2022-06-11/3-B-2_MultipleDemands.png){: .align-center}
 
-  ![Multiple Drones.png](/assets/images/posts/2022-06-11/3-B-3_MultipleDrones.png)
+* Use public transportation vehicles to assist with the movement of goods to deliver multiple demand quickly
+* Which vehicles should be loaded with which parcels and when to improve delivery efficiency
 
+**3) Multiple Drones**
 
+  ![Multiple Drones.png](/assets/images/posts/2022-06-11/3-B-3_MultipleDrones.png){: .align-center}
 
-## 4. Data
+Which drone will deliver the parcel?
+When to deliver the parcel?
 
-### A) Introduction of Data
+# 4. Data
+
+## A) Introduction of Data
 
 **(1) Bus Route Information Data**
 
-Data description
+**Data description**
 
 * Source: Seoul bus route information OpenAPI
 * Spatial scope of data: 8 bus routes that pass through Songpa-gu
   * bus route num : 303, 340, 341, 401, 3313, 3412, 3414, 3417
 
-Example of raw data
+**Example of raw data**
 ![Raw Data.png](/assets/images/posts/2022-06-11/4-A-2_RawData.png)
 
 Description of key variables
 * seq : The order of sections of a bus route (= sectOrd column of bus location data)
 * section : The id of a section (= sectionId column of bus location data)
 
-Visualization - bus route
+**Visualization - bus route**
 
 ![Bus Route.png](/assets/images/posts/2022-06-11/4-C-1_BusRoute.png){: width="350" height="350"}
 
@@ -144,60 +162,50 @@ Visualization - bus route
 
 **(2) Bus Location Data**
 
-Data description
+**Data description**
 
 * Source: Seoul bus location information OpenAPI
 * Spatial scope of data: 8 bus routes that pass through Songpa-gu
   * bus route num : 303, 340, 341, 401, 3313, 3412, 3414, 3417
 * Temporal scope of data: 06:00 ~ 24:00, every day
+* Daily data are classified by bus route, bus vehicle ID, vehicle trip, and direction through preprocessing
 
-Example of raw data
+**Example of raw data**
 ![Raw Data.png](/assets/images/posts/2022-06-11/4-A-1_RawData.png)
 
-Description of key variables
+**Description of key variables**
 * runTm : The time when the api was called for data collection
 * dataTm : The time when the location information(coordinates) of the bus was recorded
 * sectOrd : The order of sections of a bus route (= seq column of bus route information data)
 * sectionId : The id of a section (= section column of bus route information data)
 
-Visualization - bus route & bus location
+**Visualization - bus route & bus location**
 
 ![Bus Route Location.png](/assets/images/posts/2022-06-11/4-C-2_BusRouteLoc.png){: width="900" height="450"}
 
 
 
+## B) EDA
 
-### B) Data Preprocessing
-* Daily data are classified by bus route, bus vehicle ID, vehicle trip, and direction
-
-
-
-### C) EDA
-
-
-* runTm vs dataTm
-
-
-* Histogram - travel time of single link
-
-* Scatter plot - distance(y) vs travel time(x) of single link
-
-* Average bus velocity in each section per hour
-![Avg Bus Velocity.png](/assets/images/posts/2022-06-11/4-C-3_AvgBusVel.png)
-
-* Histogram - travel time of horizon
+[4. Data - EDA](https://sh38ryu.github.io/coding/data_EDA/)
 
 
 
-## 5. Experimental Results
+# 5. Experimental Results
 
 ![Experimental Results.png](/assets/images/posts/2022-06-11/5-1_ExperimentalResults.png)
 
-**A)**
 
-## 6. Conclusion
 
-## References
+# 6. Conclusion
+
+* There are many constraints on drone delivery, but efforts are being made to activate it with the great advantages of reducing delivery time, reducing costs, and being environmentally friendly
+* Since drone movement is different from existing transportation methods, a lot of research on the system is required to introduce drone delivery
+* Greater synergy is expected when drones are used in combination with public transportation
+* 
+
+
+# References
 * Literature Review
   * Huang, H., Savkin, A. V., & Huang, C. (2020). Scheduling of a parcel delivery system consisting of an aerial drone interacting with public transportation vehicles. Sensors, 20(7), 2045.
   * Huang, H., Savkin, A. V., & Huang, C. (2020). Reliable path planning for drone delivery using a stochastic time-dependent public transportation network. IEEE Transactions on Intelligent Transportation Systems, 22(8), 4941-4950.
