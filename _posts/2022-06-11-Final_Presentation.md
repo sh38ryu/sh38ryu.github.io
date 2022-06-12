@@ -127,7 +127,7 @@ Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) 
 
 * Use public transportation vehicles to assist with the movement of goods to deliver multiple demand quickly
 * Which vehicles should be loaded with which parcels and when to improve delivery efficiency
-* By introducing a drone charging system using public transportation, multiple demand delivery can be carried out efficiently
+* By introducing a **drone charging system** using public transportation, multiple demand delivery can be carried out efficiently
 
 **3) Multiple Drones**
 
