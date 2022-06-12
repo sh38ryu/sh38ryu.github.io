@@ -66,7 +66,7 @@ The demand for speed has outstripped the capabilities of railroads, trucks, ship
 
 The pros and cons of different types of delivery systems
 
-![Public Transit and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_PN.png){: width="700" height="300"}{: .align-center}
+![Public Transit and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_PsNg.png){: width="700" height="300"}{: .align-center}
 
 ## B) Purpose of Research
 * Establishment of a delivery system combining drone and public transportation
@@ -119,7 +119,7 @@ Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) 
   * Choudhury et al. (2019) updates the changing state and applies A* heuristic search to repeatedly plan the route of drone
   * Review the multimodal route planning methodology for better objective function values (minimizing delivery time)
 
-  ![Route Planning.png](/assets/images/posts/2022-06-11/3-B-1_RoutePlanning.png){: .align-center}
+  ![Route Planning.png](/assets/images/posts/2022-06-11/3-B-1_RP.png){: .align-center}
 
 **2) Optimization of Multiple Demand Delivery**
 
@@ -148,7 +148,7 @@ When to deliver the parcel?
   * bus route num : 303, 340, 341, 401, 3313, 3412, 3414, 3417
 
 **Example of raw data**
-![Raw Data.png](/assets/images/posts/2022-06-11/4-A-2_RawData.png)
+![Raw Data.png](/assets/images/posts/2022-06-11/4-A-2_RouteInfo.png)
 
 Description of key variables
 * seq : The order of sections of a bus route (= sectOrd column of bus location data)
@@ -171,7 +171,7 @@ Description of key variables
 * Daily data are classified by bus route, bus vehicle ID, vehicle trip, and direction through preprocessing
 
 **Example of raw data**
-![Raw Data.png](/assets/images/posts/2022-06-11/4-A-1_RawData.png)
+![Raw Data.png](/assets/images/posts/2022-06-11/4-A-1_BusLoc.png)
 
 **Description of key variables**
 * runTm : The time when the api was called for data collection
@@ -193,7 +193,7 @@ Description of key variables
 
 # 5. Experimental Results
 
-![Experimental Results.png](/assets/images/posts/2022-06-11/5-1_ExperimentalResults.png)
+![Experimental Results.png](/assets/images/posts/2022-06-11/5-1_ExpRes.png)
 
 
 
