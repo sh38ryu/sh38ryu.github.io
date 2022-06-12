@@ -40,7 +40,7 @@ Parcel delivery system using rechargeable drone based on an uncertain public tra
 
 The demand for speed has outstripped the capabilities of railroads, trucks, ships, and planes
 
-> Drone Delivery: A Solution to Last Mile Delivery!
+> **Drone Delivery** : A Solution to Last Mile Delivery!
 
 **Current situations of drone delivery**
 
@@ -69,8 +69,8 @@ The pros and cons of different types of delivery systems
 ![Public Transit and Drone Delivery.png](/assets/images/posts/2022-06-11/1-A_PsNg.png){: width="700" height="300"}{: .align-center}
 
 ## B) Purpose of Research
-* Establishment of a delivery system combining drone and public transportation
-* Improve delivery efficiency by introducing drone battery charging
+* Establish a delivery system combining drone and public transportation
+* Improve delivery efficiency by introducing drone battery charging system
 * Improving the applicability of this system by considering the uncertainty of link travel time of public transportation
 
 
@@ -89,7 +89,7 @@ The pros and cons of different types of delivery systems
 * *pseudo horizon* : the distance from a GPS point to an upstream GPS point
 ![Pseudo Horizon.png](/assets/images/posts/2022-06-11/2-B-1_PseudoHorizon.png){: width="500" height="150"}{: .align-center}
 * analyze the changes of bus travel time characteristics as pseudo horizon varies and how such characteristics can be applied to real-time bus arrival estimation
-* Instead of point estimates of bus arrival times, his study provides interval estimates that take into account the uncertainty of future bus arrival times
+* Instead of ~~point estimates~~ of bus arrival times, his study provides **interval estimates** that take into account the uncertainty of future bus arrival times
 * Show a significant change in bus travel time characteristics around a pseudo horizon range of 8 km
 ![Rank of Distributions.png](/assets/images/posts/2022-06-11/2-B-2_RankOfDistribution.png){: width="500" height="600"}{: .align-center}
 
@@ -127,6 +127,7 @@ Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) 
 
 * Use public transportation vehicles to assist with the movement of goods to deliver multiple demand quickly
 * Which vehicles should be loaded with which parcels and when to improve delivery efficiency
+* By introducing a drone charging system using public transportation, multiple demand delivery can be carried out efficiently
 
 **3) Multiple Drones**
 
@@ -193,16 +194,20 @@ Description of key variables
 
 # 5. Experimental Results
 
+**Single Demand (Choudhury et al.)**
+
+![Experimental Results.png](/assets/images/posts/2022-06-11/5-1_ExpRes_single.png){: width="250" height="400"}{: .align-center}
+
 ![Experimental Results.png](/assets/images/posts/2022-06-11/5-1_ExpRes.png)
 
 
 
 # 6. Conclusion
 
-* There are many constraints on drone delivery, but efforts are being made to activate it with the great advantages of reducing delivery time, reducing costs, and being environmentally friendly
+* There are many constraints on drone delivery, but efforts are being made to activate it with the great advantages of **reducing delivery time**, reducing costs, and being environmentally friendly
 * Since drone movement is different from existing transportation methods, a lot of research on the system is required to introduce drone delivery
 * Greater synergy is expected when drones are used in combination with public transportation
-* 
+* Research Plan : Route Planning, Optimization of Multiple Demand Delivery, Multiple Drones
 
 
 # References
@@ -218,7 +223,13 @@ Description of key variables
   * Moadab, A., Farajzadeh, F., & Fatahi Valilai, O. (2022). Drone routing problem model for last-mile delivery using the public transportation capacity as moving charging stations. Scientific Reports, 12(1), 1-16.
   * Rahman, M. M., Wirasinghe, S. C., & Kattan, L. (2018). Analysis of bus travel time distributions for varying horizons and real-time applications. Transportation Research Part C: Emerging Technologies, 86, 453-466.
 * Website
+  * 당잃배송. (2022, June 12). Gettyimagebank. https://m.gettyimagesbank.com/view/%EA%B0%80%EC%A0%95%EC%9D%98%EB%8B%AC-5%EC%9B%94-%EA%B0%80%EC%A1%B1-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8/a10998285
+  * 11번가도 ’쓱~’… 수도권 지역 SSG닷컴 “새벽배송” 서비스 도입. (2022, June 12). 뉴데일리경제. https://biz.newdaily.co.kr/site/data/html/2021/01/11/2021011100101.html
+  * “새벽보다 빠른 야간배송, 365일 최저가까지”…유통家 생존전쟁 ‘점입가경.’ (2022, June 12). 동아일보. https://www.donga.com/news/Economy/article/all/20190806/96846449/1
+  * ★가네샤요가프랍스 쿠팡 로켓배송 입점★ ▶가네샤 요가매트 구매하고 인증하면 ’가네샤 요가 핸드타월’을 드려요! (2022, June 12). 가네샤요가프랑스. https://www.ganeshayogaprops.com/52/?q=YToyOntzOjQ6InBhZ2UiO2k6NDtzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=5351957&t=board
+  * We’re Bringing the Convenience of Drone Delivery to 4 Million U.S. Households in Partnership with DroneUp. (2022, June 12). Walmart. https://corporate.walmart.com/newsroom/2022/05/24/were-bringing-the-convenience-of-drone-delivery-to-4-million-u-s-households-in-partnership-with-droneup
   * UPS Has a Delivery Truck That Can Launch a Drone. (2022, June 12). THE VERGE. URL: https://www.theverge.com/2017/2/21/14691062/ups-drone-delivery-truck-test-completed-video
+  * 도미노피자, 국내 최초 드론 배달 서비스 상용화. (2022, June 12). 식품외식경제. https://www.foodbank.co.kr/news/articleView.html?idxno=61821
   * 유통 ‘배송전쟁’ 롯데·신세계도 뛰어들어…이커머스 업계 “해볼만”. (2022.01.04). URL: https://www.enewstoday.co.kr/news/articleView.html?idxno=1327399
   * 코로나19 위기 속 안전하면서도 편리한 배송 ‘드론’. (2022.01.04). URL: https://www.klnews.co.kr/news/articleView.html?idxno=121867
   * [드론배송, 어디까지 왔나-②] 기업이 끌고 국가가 민다···세계는 상용화 잰걸음. (2022.01.04). URL: http://www.todaykorea.co.kr/news/articleView.html?idxno=294303
