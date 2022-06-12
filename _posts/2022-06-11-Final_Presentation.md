@@ -116,6 +116,7 @@ Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) 
 
 **1)  Route Planning**
   * Apply data analysis-based distribution to the calculation of ETA(estimated time of arrival)
+  * Analyzes how the improvement in the accuracy of predicting the estimated transit time of the bus affects the successful delivery of drones and the success rate of HOPON
   * Choudhury et al. (2019) updates the changing state and applies A* heuristic search to repeatedly plan the route of drone
   * Review the multimodal route planning methodology for better objective function values (minimizing delivery time)
 
