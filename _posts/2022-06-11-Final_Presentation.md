@@ -109,7 +109,7 @@ Based on 1) Markov Decision Process (MDP), 2) Multimodal Route Planning, and 3) 
 * MDP
 
   ![MDP figure.png](/assets/images/posts/2022-06-11/3-A-3_MDP_figure.png){: width="250" height="250"}{: .align-center}
-  ![MDP.png](/assets/images/posts/2022-06-11/3-A-2_MDP.png){: .align-center}
+  ![MDP.png](/assets/images/posts/2022-06-11/3-A-2_mdpmdp.png){: .align-center}
 
 
 ## B) This Study
