@@ -184,7 +184,7 @@ Description of key variables
 
 ![Bus Route Location.png](/assets/images/posts/2022-06-11/4-C-2_BusRouteLoc.png){: width="900" height="450"}
 
-
+![Bus Velocity.png](/assets/images/posts/2022-06-11/4_3d2.png){: width="900" height="450"}
 
 ## B) EDA
 
