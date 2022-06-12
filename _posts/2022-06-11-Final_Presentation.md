@@ -16,12 +16,12 @@ Parcel delivery system using rechargeable drone based on an uncertain public tra
 
 # Contents
 
-1. Introduction
-2. Literature Review
-3. Methodology
-4. Data
-5. Experimental Results
-6. Conclusion
+> 1. Introduction
+> 2. Literature Review
+> 3. Methodology
+> 4. Data
+> 5. Experimental Results
+> 6. Conclusion
 
 
 
@@ -71,7 +71,7 @@ The pros and cons of different types of delivery systems
 ## B) Purpose of Research
 * Establish a delivery system combining drone and public transportation
 * Improve delivery efficiency by introducing drone battery charging system
-* Improving the applicability of this system by considering the uncertainty of link travel time of public transportation
+* Improve the applicability of this system by considering the uncertainty of link travel time of public transportation
 
 
 
