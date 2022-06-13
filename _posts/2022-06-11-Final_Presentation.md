@@ -12,7 +12,7 @@ last_modified_at: 2022-06-11T11:33:00-05:00
 
 # Final Presentation
 
-Parcel delivery system using rechargeable drone based on an uncertain public transportation network
+**Parcel delivery system using rechargeable drone based on an uncertain public transportation network**
 
 # Contents
 
